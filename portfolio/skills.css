@@ -1,0 +1,48 @@
+#body
+{
+    background-color: rgb(20, 20, 19);
+    color: white;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+li > button
+{
+    margin: 7vw 2vw 2vw 2vw;
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+}
+.head
+{
+    text-align: center;
+}
+.master
+{
+    background-color: rgb(98, 204, 98);
+}
+.intermediate
+{
+    background-color: rgb(206, 206, 118);
+}
+.begginer
+{
+    background-color:rgb(163, 63, 63) ;
+}
+#img
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.certifi
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 7vw;
+}

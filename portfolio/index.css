@@ -1,0 +1,55 @@
+#body
+{
+    background-color: rgb(20, 20, 19);
+}
+#text
+{
+    text-align: center;
+    margin-top: 10vw;
+    color: white;
+}
+.text{color: #0072ff;}
+#img
+{
+    display: flex;
+    justify-content: center;
+
+}
+#img1{
+    width: 20vw;
+    height: 50vh;
+    margin-top: 10vh;
+    border-radius: 50%;
+
+}
+#i-i,#i-l,#i-g
+{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px #00000000,10px 1px 12px #00000000,2px 2px 10px #00000000
+    inset 2px 2px 10px #00000000, inset 2px 2px 10px #00000000,inset 2px 2px 10px #00000000;
+    padding: 5px 9px;
+    margin: 10px 20px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff,0 0 100px #0072ff,0 0 150px #0072ff;
+}
+#i-i{ animation-delay: .5s;}
+#i-l{ animation-delay: .10s;}
+#i-g{ animation-delay: .15s;}
+@keyframes animate
+{
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+
+}
+#icons
+{   display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

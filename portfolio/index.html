@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <title>Document</title>
+</head>
+<body id="body">
+    <nav class="navbar navbar-default" id="nav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <h2><b class="brand"></b></h2>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="top"><a href="project.html" id="a">project</a></li>
+                <li class="top"><a href="skills.html" id="a">skills</a></li>
+                <li class="top"><a href="about.html" id="a">about</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6" id="text">
+            <h2>I'm KISHORE.B ,</h2>
+            <h3>I'm a <span class="text"></span></h3>
+            <div id="icons">
+                <a href="" class="fa-brands fa-instagram" id="i-i"></a>
+                <a href="" class="fa-brands fa-linkedin" id="i-l"></a>
+                <a href="" class="fa-brands fa-google" id="i-g"></a>
+            </div>
+        </div>
+        <div class="col-md-4" id="img">
+            <img src="img/ph1.jpg" alt="img" id="img1">
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/49d370256d.js" crossorigin="anonymous"></script>
+    
+    <script>
+        var typed= new Typed(".text",{strings:["web developer","student"],
+        typeSpeed:100,
+        backSpeed:100,
+        bacDelay:1000,
+        loop:true,
+        showCursor:false
+        })
+        var typd= new Typed(".brand",{strings:["SBK"],
+        typeSpeed:200,
+        showCursor:false
+        })
+    </script>
+</body>
+</html>
